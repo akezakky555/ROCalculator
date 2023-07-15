@@ -1538,11 +1538,21 @@
                         <el-col class="textcenter">
                             <span class=""><b>裝備名字</b></span>
                         </el-col>
-                        <el-col :span="4">
+                        <el-col :span="5">
+                            <span class=""><b>Load Equip List:</b></span>
                         </el-col>
-                        <el-col :span="6">
+                        <el-col :span="6"><!--default_equip-->
+                            <el-select v-model="status.select_default" v-on:change="updateSelectDefault" placeholder="">
+                                <el-option v-for="item in default_equip" :key="item.id" :label="item.label"
+                                    :value="item.id">
+                                </el-option>
+                            </el-select>
                         </el-col>
                         <el-col :span="5">
+                            <el-button v-on:click="loadDefaultEquip" icon="el-icon-check"
+                                type="success" type="primary" size="small">
+                                Load
+                            </el-button>
                         </el-col>
                     </el-row>
                 </div>
@@ -5660,6 +5670,28 @@
                     IgnoreMDEF: false,
                     MemoryofThanatosCard: false,
                 },
+                default_equip: [
+                    {id: 'RK', label: 'RuneKnight'},
+                    {id: 'GX', label: 'GuillotineCross'},
+                    {id: 'AB', label: 'ArchBishop'},
+                    {id: 'RA', label: 'Ranger'},
+                    {id: 'WL', label: 'Warlock'},
+                    {id: 'ME', label: 'Mechanic'},
+                    {id: 'RG', label: 'RoyalGuard'},
+                    {id: 'SC', label: 'ShadowChaser'},
+                    {id: 'SU', label: 'Sura'},
+                    {id: 'PF', label: 'Performers'},
+                    {id: 'SO', label: 'Sorcerer'},
+                    {id: 'GE', label: 'Geneticist'},
+                    {id: 'KO', label: 'Kagerou'},
+                    {id: 'OB', label: 'Oboro'},
+                    {id: 'RE', label: 'Rebel'},
+                    {id: 'SE', label: 'StarEmperor'},
+                    {id: 'SL', label: 'SoulReaper'},
+                    {id: 'SUM', label: 'Summoner'},
+                    {id: 'SN', label: 'SuperNovice'},
+                ],
+                select_default: '',
                 computeattribute:
                 {
                     StatsPoint: 0,
@@ -9817,6 +9849,46 @@
                     );
 
                     console.log("LOAD DB");
+                },
+                updateSelectDefault(ele){
+                    this.select_default = ele;
+                },
+                loadDefaultEquip(){
+                    fetch('/default_equip/'+this.select_default+'.json')
+                    .then(res => res.json())
+                    .then(json => {
+                        let loadedNames = this.getLoadedEquipNames();
+                        for (const [key, value] of Object.entries(json)) {
+                            if (loadedNames.includes(value.equipname)) continue;
+                            this.StoreDB_Equip.unshift({
+                                uuid: this._uuid(),
+                                equip: {
+                                    id: value.id,
+                                    label: value.label,
+                                    equipname: value.equipname,
+                                    effectlist: Object.values(value.effectlist),
+                                },
+                                date: Date.now(),
+                                weapon: value.idx < 2 ? ((value.idx == 0) ?
+                                value.weapon :
+                                value.subweapon) :
+                                null,
+                                subweapon: value.subweapon
+                            });
+                            this.SaveEquipDB();
+                        }
+                    })
+                },
+                getLoadedEquipNames(){
+                    let loadedNames = [];
+                    for (const [key, value] of Object.entries(this.StoreDB_Equip)) {
+                        try{
+                            loadedNames.push(value.equip.equipname);
+                        } catch(e){
+                            console.log('error geting equip name', e);
+                        }
+                    }
+                    return loadedNames;
                 },
 
                 /**
