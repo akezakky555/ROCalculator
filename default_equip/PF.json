@@ -380,97 +380,97 @@
 			"refineatk2": 0
 		}
 	},
-	{
-		"id": "weaponr",
-		"itemid": 580013,
-		"label": "MainHand",
-		"equipname": "Poenitentia Flagellum",
-		"refinelevel": 14,
-		"grade": {
-			"id": 4,
-			"label": "A"
-		},
-		"effectlist": [
-			{
-				"EffectNumber": 10,
-				"EffectType": {
-					"id": "MatkPercent"
-				},
-				"Enable": true
-			},
-			{
-				"EffectNumber": "(SKIDS(\"REVERBERATION\")?3*DOWN(WEAR/2)+(WEAR>8?30:0):0)+(SKIDS(\"METALIC_FURY\")?10+(WEAG(3)?25:(WEAG(2)?13:(WEAG(1)?5:0))):0)",
-				"EffectType": {
-					"id": "SkillDamagePercent"
-				},
-				"Enable": true
-			},
-			{
-				"EffectNumber": "(WEAR>6?10:0)",
-				"EffectType": {
-					"id": "VariableCastPercent"
-				},
-				"Enable": true
-			},
-			{
-				"EffectNumber": "(SKIDS(\"REVERBERATION\")&&WEAR>10)?0.5:0)",
-				"EffectType": {
-					"id": "FixedCast"
-				},
-				"Enable": true
-			},
-			{
-				"EffectNumber": "(WEAG(2)?1:0)",
-				"EffectType": {
-					"id": "SMATK"
-				},
-				"Enable": true
-			},
-			{
-				"EffectNumber": "(WEAG(3)?1:0)",
-				"EffectType": {
-					"id": "SPL"
-				},
-				"Enable": true
-			}
-		],
-		"combolist": [],
-		"idx": 0,
-		"weapon": {
-			"type": {
-				"id": "Whips",
-				"label": "Whip",
-				"sizefix": {
-					"small": 75,
-					"middle": 100,
-					"large": 75
-				},
-				"baseaspd": "",
-				"isRangedattack": false,
-				"isTwohand": false
-			},
-			"level": {
-				"id": 5,
-				"label": "Lv. 5 Weapon",
-				"upgradeatk": 8,
-				"saferefine": 4,
-				"overatk": 0
-			},
-			"grade": {
-				"id": 4,
-				"label": "A"
-			},
-			"ATK": "220",
-			"MATK": 250,
-			"refinelevel": 14,
-			"ArrowATK": 0,
-			"BulletATK": 0,
-			"Weight": 110,
-			"refinematk": 0,
-			"refineatk": 0,
-			"refineatk2": 0
-		}
-	},
+        {
+                "id": "weaponr",
+                "itemid": 580013,
+                "label": "MainHand",
+                "equipname": "Poenitentia Flagellum",
+                "refinelevel": 14,
+                "grade": {
+                        "id": 4,
+                        "label": "A"
+                },
+                "effectlist": [
+                        {
+                                "EffectNumber": 10,
+                                "EffectType": {
+                                        "id": "MatkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(SKIDS(\"REVERBERATION\")?3*DOWN(WEAR/2)+(WEAR>8?30:0):0)+(SKIDS(\"METALIC_FURY\")?10+(WEAG(3)?25:(WEAG(2)?13:(WEAG(1)?5:0))):0)",
+                                "EffectType": {
+                                        "id": "SkillDamagePercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(WEAR>6?10:0)",
+                                "EffectType": {
+                                        "id": "VariableCastPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "((SKIDS(\"REVERBERATION\")&&WEAR>10)?0.5:0)",
+                                "EffectType": {
+                                        "id": "FixedCast"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(WEAG(2)?1:0)",
+                                "EffectType": {
+                                        "id": "SMATK"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(WEAG(3)?1:0)",
+                                "EffectType": {
+                                        "id": "SPL"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "idx": 0,
+                "weapon": {
+                        "type": {
+                                "id": "Whips",
+                                "label": "Whip",
+                                "sizefix": {
+                                        "small": 75,
+                                        "middle": 100,
+                                        "large": 75
+                                },
+                                "baseaspd": "",
+                                "isRangedattack": false,
+                                "isTwohand": false
+                        },
+                        "level": {
+                                "id": 5,
+                                "label": "Lv. 5 Weapon",
+                                "upgradeatk": 8,
+                                "saferefine": 4,
+                                "overatk": 0
+                        },
+                        "grade": {
+                                "id": 4,
+                                "label": "A"
+                        },
+                        "ATK": "220",
+                        "MATK": 250,
+                        "refinelevel": 14,
+                        "ArrowATK": 0,
+                        "BulletATK": 0,
+                        "Weight": 110,
+                        "refinematk": 0,
+                        "refineatk": 0,
+                        "refineatk2": 0
+                }
+        },
 	{
 		"id": "weaponr",
 		"itemid": 700025,
@@ -3199,5 +3199,233 @@
 			"refineatk": 0,
 			"refineatk2": 0
 		}
-	}
+	},
+        {
+                "id": "shadowarmor",
+                "itemid": 24836,
+                "label": "S.Armor",
+                "equipname": "M. Troubadour & Trouvere Shadow Armor",
+                "refinelevel": 10,
+                "grade": {
+                        "id": 0,
+                        "label": "No Grade"
+                },
+                "effectlist": [],
+                "combolist": [
+                        {
+                                "itemid_every": [
+                                        24793
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Master Shadow Shield",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 2,
+                                                "EffectType": {
+                                                        "id": "AllTrait"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [
+                                        24793,
+                                        24837
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Master Shadow Shield + M. Troubadour & Trouvere Shadow Shoes",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 1,
+                                                "EffectType": {
+                                                        "id": "PATK"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": 1,
+                                                "EffectType": {
+                                                        "id": "SMATK"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "(SHSHIER+SHARMORR+SHSHOER)>26?50:0",
+                                                "EffectType": {
+                                                        "id": "BypassDEFPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "(SHSHIER+SHARMORR+SHSHOER)>26?50:0",
+                                                "EffectType": {
+                                                        "id": "BypassMDEFPercent"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [
+                                        24792,
+                                        24793,
+                                        24837,
+                                        24838,
+                                        24839
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Master Shadow (Weapon/Shield) + M. Troubadour & Trouvere Shadow (Shoes/Earring/Pendant)",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 20,
+                                                "EffectType": {
+                                                        "id": "BypassRESPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": 20,
+                                                "EffectType": {
+                                                        "id": "BypassMRESPercent"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        }
+                ],
+                "idx": 3
+        },
+        {
+                "id": "shadowshoe",
+                "itemid": 24837,
+                "label": "S.Shoes",
+                "equipname": "M. Troubadour & Trouvere Shadow Shoes",
+                "refinelevel": 10,
+                "grade": {
+                        "id": 0,
+                        "label": "No Grade"
+                },
+                "effectlist": [],
+                "combolist": [
+                        {
+                                "itemid_every": [
+                                        24793
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Master Shadow Shield",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 2,
+                                                "EffectType": {
+                                                        "id": "AllTrait"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        }
+                ],
+                "idx": 3
+        },
+        {
+                "id": "shadowearring",
+                "itemid": 24838,
+                "label": "S.Earring",
+                "equipname": "M. Troubadour & Trouvere Shadow Earring",
+                "refinelevel": 10,
+                "grade": {
+                        "id": 0,
+                        "label": "No Grade"
+                },
+                "effectlist": [],
+                "combolist": [
+                        {
+                                "itemid_every": [
+                                        24792
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Master Shadow Weapon",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 2,
+                                                "EffectType": {
+                                                        "id": "AllTrait"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [
+                                        24792,
+                                        24839
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Master Shadow Weapon + M. Troubadour & Trouvere Shadow Pendant",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 1,
+                                                "EffectType": {
+                                                        "id": "PATK"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": 1,
+                                                "EffectType": {
+                                                        "id": "SMATK"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "(SHWEAR+SHACCRR+SHACCLR)>26?50:0",
+                                                "EffectType": {
+                                                        "id": "BypassDEFPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "(SHWEAR+SHACCRR+SHACCLR)>26?50:0",
+                                                "EffectType": {
+                                                        "id": "BypassMDEFPercent"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        }
+                ],
+                "idx": 3
+        },
+        {
+                "id": "shadowpendant",
+                "itemid": 24839,
+                "label": "S.Pendant",
+                "equipname": "M. Troubadour & Trouvere Shadow Pendant",
+                "refinelevel": 10,
+                "grade": {
+                        "id": 0,
+                        "label": "No Grade"
+                },
+                "effectlist": [],
+                "combolist": [
+                        {
+                                "itemid_every": [
+                                        24792
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Master Shadow Weapon",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 2,
+                                                "EffectType": {
+                                                        "id": "AllTrait"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        }
+                ],
+                "idx": 3
+        }
+
 ]

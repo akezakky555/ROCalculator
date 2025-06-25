@@ -9,6 +9,69 @@
 		"flags": [],
 		"idx": 3
 	},
+{
+    "id": "robecard",
+    "itemid": 300578,
+    "label": "Garment Card",
+    "equipname": "Upgrade Minstrel Alphoccio Card",
+    "effectlist": [
+        {
+            "EffectNumber": "(BLV>174?15:0)+(GARMR>9?15:0)",
+            "EffectType": {
+                "id": "AllStatus"
+            },
+            "Enable": true
+        },
+        {
+            "EffectNumber": "4*DOWN(GARMR/3)",
+            "EffectType": {
+                "id": "ElementalMagicPercent"
+            },
+            "Enable": true
+        },
+        {
+            "EffectNumber": "['MI','WA'].includes(CCL)?15:0",
+            "EffectType": {
+                "id": "RaceMatkPercent"
+            },
+            "Enable": true
+        },
+        {
+            "EffectNumber": "['MI','WA'].includes(CCL)?15:0",
+            "EffectType": {
+                "id": "HPPercent"
+            },
+            "Enable": true
+        },
+        {
+            "EffectNumber": "['MI','WA'].includes(CCL)?15:0",
+            "EffectType": {
+                "id": "MatkPercent"
+            },
+            "Enable": true
+        }
+    ],
+    "combolist": [
+        {
+            "itemid_every": [
+                4696
+            ],
+            "itemid_any": [],
+            "equipname": "True Alphoccio Basil Card",
+            "effectlist": [
+                {
+                    "EffectNumber": 200,
+                    "EffectType": {
+                        "id": "Matk"
+                    },
+                    "Enable": true
+                }
+            ]
+        }
+    ],
+    "flags": [],
+    "idx": 3
+},
 	{
 		"id": "helmcard",
 		"itemid": 4132,

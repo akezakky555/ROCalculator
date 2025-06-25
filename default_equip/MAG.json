@@ -422,35 +422,77 @@
 		],
 		"idx": 3
 	},
-	{
-		"id": "helm1",
-		"itemid": 410216,
-		"label": "Middle",
-		"equipname": "Ears of Abyss",
-		"refinelevel": 0,
-		"grade": {
-			"id": 0,
-			"label": "No Grade"
-		},
-		"effectlist": [
-			{
-				"EffectNumber": "DOWN((BAG+BIN)/15)",
-				"EffectType": {
-					"id": "SPL"
-				},
-				"Enable": true
-			},
-			{
-				"EffectNumber": "((BAG+BIN)>249?15:0)+DOWN((BAG+BIN)/30)",
-				"EffectType": {
-					"id": "RaceMatkPercent"
-				},
-				"Enable": true
-			}
-		],
-		"combolist": [],
-		"idx": 3
-	},
+        {
+                "id": "helm1",
+                "itemid": 410391,
+                "label": "Middle",
+                "equipname": "Ear of Abyss",
+                "refinelevel": 0,
+                "grade": {
+                        "id": 0,
+                        "label": "No Grade"
+                },
+                "effectlist": [
+                        {
+                                "EffectNumber": "8",
+                                "EffectType": {
+                                        "id": "GCDPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "((BVI+BAG)>=180)?15:0",
+                                "EffectType": {
+                                        "id": "LevelAtkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "((BVI+BAG)>=180)?15:0",
+                                "EffectType": {
+                                        "id": "LevelMatkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "DOWN((BVI+BAG)/10)",
+                                "EffectType": {
+                                        "id": "POW"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "DOWN((BVI+BAG)/10)",
+                                "EffectType": {
+                                        "id": "SPL"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "DOWN((BVI+BAG)/20)",
+                                "EffectType": {
+                                        "id": "RangedDamagePercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "DOWN((BVI+BAG)/20)",
+                                "EffectType": {
+                                        "id": "MeleeDamagePercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "DOWN((BVI+BAG)/20)",
+                                "EffectType": {
+                                        "id": "MatkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "idx": 3
+        },
 	{
 		"id": "shoes",
 		"itemid": 470206,
@@ -2033,141 +2075,6 @@
 						"EffectNumber": "(SHSHIER+SHACCRR)>17?3:0",
 						"EffectType": {
 							"id": "SMATK"
-						},
-						"Enable": true
-					}
-				]
-			}
-		],
-		"idx": 3
-	},
-	{
-		"id": "helm",
-		"itemid": 400482,
-		"label": "Upper",
-		"equipname": "Poenetentia Glory Crown",
-		"refinelevel": 13,
-		"grade": {
-			"id": 0,
-			"label": "No Grade"
-		},
-		"effectlist": [
-			{
-				"EffectNumber": "15*DOWN(HATR/2)",
-				"EffectType": {
-					"id": "Matk"
-				},
-				"Enable": true
-			},
-			{
-				"EffectNumber": "5*DOWN(HATR/3)",
-				"EffectType": {
-					"id": "MatkPercent"
-				},
-				"Enable": true
-			},
-			{
-				"EffectNumber": "5*DOWN(HATR/4)",
-				"EffectType": {
-					"id": "ElementalMagicPercent"
-				},
-				"Enable": true
-			},
-			{
-				"EffectNumber": "HATR>12?20:0",
-				"EffectType": {
-					"id": "RaceMatkPercent"
-				},
-				"Enable": true
-			},
-			{
-				"EffectNumber": "HATR>8?10:0",
-				"EffectType": {
-					"id": "VariableCastPercent"
-				},
-				"Enable": true
-			},
-			{
-				"EffectNumber": "HATR>10?15:0",
-				"EffectType": {
-					"id": "SizeMatkPercent"
-				},
-				"Enable": true
-			},
-			{
-				"EffectNumber": "HATR>12?0.5:0",
-				"EffectType": {
-					"id": "FixedCast"
-				},
-				"Enable": true
-			}
-		],
-		"combolist": [
-			{
-				"itemid_every": [
-					500019
-				],
-				"itemid_any": [],
-				"equipname": "Poenitentia Gladius",
-				"effectlist": [
-					{
-						"EffectNumber": "SKIDS(\"RAYOFGENESIS\")?1:0",
-						"EffectType": {
-							"id": "CDTime"
-						},
-						"Enable": true
-					},
-					{
-						"EffectNumber": "(SKIDS(\"RAYOFGENESIS\")?(10*DOWN(WEAR/2)):0)+(SKIDS(\"CROSS_RAIN\")?(8*DOWN(WEAR/2)):0)",
-						"EffectType": {
-							"id": "SkillDamagePercent"
-						},
-						"Enable": true
-					}
-				]
-			},
-			{
-				"itemid_every": [
-					550020
-				],
-				"itemid_any": [],
-				"equipname": "Poenitentia Crystallum",
-				"effectlist": [
-					{
-						"EffectNumber": "SKIDS(\"ADORAMUS\")?1:0",
-						"EffectType": {
-							"id": "CDTime"
-						},
-						"Enable": true
-					},
-					{
-						"EffectNumber": "(SKIDS(\"ADORAMUS\")?(10*DOWN(WEAR/2)):0)+(SKIDS(\"FRAMEN\")?(8*DOWN(WEAR/2)):0)",
-						"EffectType": {
-							"id": "SkillDamagePercent"
-						},
-						"Enable": true
-					}
-				]
-			},
-			{
-				"itemid_every": [],
-				"itemid_any": [
-					570013,
-					580013
-				],
-				"equipname": "Poenitentia Chorda or Poenitentia Flagellum",
-				"effectlist": [
-					{
-						"EffectNumber": 10,
-						"EffectType": {
-							"id": "SMATK"
-						},
-						"Enable": true
-					},
-					{
-						"EffectNumber": "SKIDS(\"REVERBERATION METALIC_FURY\")?(10*DOWN(WEAR/2)):0",
-						"EffectType": {
-							"id": "SkillDamagePercent"
 						},
 						"Enable": true
 					}
