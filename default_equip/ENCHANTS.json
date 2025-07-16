@@ -11951,5 +11951,661 @@
 		"combolist": [],
 		"flags": "Stat",
 		"idx": 3
-	}
+	},
+        {
+                "id": "helmUpper1",
+                "itemid": 313577,
+                "label": "Helm Enchant",
+                "equipname": "Sapphire of Intelligence Lv.1",
+                "effectlist": [
+                        {
+                                "EffectNumber": "50",
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "5",
+                                "EffectType": {
+                                        "id": "MatkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Magic",
+                "idx": 3
+        },
+        {
+                "id": "helmUpper1",
+                "itemid": 314018,
+                "label": "Helm Enchant",
+                "equipname": "Sapphire of Intelligence Lv.2",
+                "effectlist": [
+                        {
+                                "EffectNumber": "60",
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "5",
+                                "EffectType": {
+                                        "id": "MatkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "2",
+                                "EffectType": {
+                                        "id": "SMATK"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Magic",
+                "idx": 3
+        },
+        {
+                "id": "helmUpper1",
+                "itemid": 313579,
+                "label": "Helm Enchant",
+                "equipname": "Diamond of Fatality Lv.1",
+                "effectlist": [
+                        {
+                                "EffectNumber": "30",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "9",
+                                "EffectType": {
+                                        "id": "CriDamagePercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Crit",
+                "idx": 3
+        },
+        {
+                "id": "helmUpper1",
+                "itemid": 314020,
+                "label": "Helm Enchant",
+                "equipname": "Diamond of Fatality Lv.2",
+                "effectlist": [
+                        {
+                                "EffectNumber": "50",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "9",
+                                "EffectType": {
+                                        "id": "CriDamagePercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "2",
+                                "EffectType": {
+                                        "id": "CRIDR"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Crit",
+                "idx": 3
+        },
+        {
+                "id": "helmUpper1",
+                "itemid": 313576,
+                "label": "Helm Enchant",
+                "equipname": "Topaz of Agility Lv.1",
+                "effectlist": [
+                        {
+                                "EffectNumber": "2000",
+                                "EffectType": {
+                                        "id": "HP"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "1",
+                                "EffectType": {
+                                        "id": "ASPD"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "ASPD",
+                "idx": 3
+        },
+        {
+                "id": "helmUpper1",
+                "itemid": 314017,
+                "label": "Helm Enchant",
+                "equipname": "Topaz of Agility Lv.2",
+                "effectlist": [
+                        {
+                                "EffectNumber": "4000",
+                                "EffectType": {
+                                        "id": "HP"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "1",
+                                "EffectType": {
+                                        "id": "ASPD"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "2",
+                                "EffectType": {
+                                        "id": "BypassRESPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "ASPD",
+                "idx": 3
+        },
+        {
+                "id": "helmUpper1",
+                "itemid": 313575,
+                "label": "Helm Enchant",
+                "equipname": "Amethyst of Vitality Lv.1",
+                "effectlist": [
+                        {
+                                "EffectNumber": "5",
+                                "EffectType": {
+                                        "id": "VariableCastPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "3",
+                                "EffectType": {
+                                        "id": "GCDPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "CastTime",
+                "idx": 3
+        },
+        {
+                "id": "helmUpper1",
+                "itemid": 314016,
+                "label": "Helm Enchant",
+                "equipname": "Amethyst of Vitality Lv.2",
+                "effectlist": [
+                        {
+                                "EffectNumber": "5",
+                                "EffectType": {
+                                        "id": "VariableCastPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "3",
+                                "EffectType": {
+                                        "id": "GCDPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "60",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "60",
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "CastTime",
+                "idx": 3
+        },
+        {
+                "id": "helmUpper1",
+                "itemid": 313574,
+                "label": "Helm Enchant",
+                "equipname": "Ruby of Strength Lv.1",
+                "effectlist": [
+                        {
+                                "EffectNumber": "5",
+                                "EffectType": {
+                                        "id": "MeleeDamagePercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "30",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Melee",
+                "idx": 3
+        },
+        {
+                "id": "helmUpper1",
+                "itemid": 314015,
+                "label": "Helm Enchant",
+                "equipname": "Ruby of Strength Lv.2",
+                "effectlist": [
+                        {
+                                "EffectNumber": "5",
+                                "EffectType": {
+                                        "id": "MeleeDamagePercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "50",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "2",
+                                "EffectType": {
+                                        "id": "PATK"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Melee",
+                "idx": 3
+        },
+        {
+                "id": "garment1",
+                "itemid": 312438,
+                "label": "Garment Enchant",
+                "equipname": "Spirit of Knight Lv.1",
+                "effectlist": [
+                        {
+                                "EffectNumber": "10",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "10",
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Stat",
+                "idx": 3
+        },
+        {
+                "id": "garment1",
+                "itemid": 312439,
+                "label": "Garment Enchant",
+                "equipname": "Spirit of Knight Lv.2",
+                "effectlist": [
+                        {
+                                "EffectNumber": "20",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "20",
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Stat",
+                "idx": 3
+        },
+        {
+                "id": "garment1",
+                "itemid": 312440,
+                "label": "Garment Enchant",
+                "equipname": "Spirit of Knight Lv.3",
+                "effectlist": [
+                        {
+                                "EffectNumber": "30",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "30",
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Stat",
+                "idx": 3
+        },
+        {
+                "id": "garment1",
+                "itemid": 312441,
+                "label": "Garment Enchant",
+                "equipname": "Spirit of Knight Lv.4",
+                "effectlist": [
+                        {
+                                "EffectNumber": "50",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "50",
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "5",
+                                "EffectType": {
+                                        "id": "RaceAtkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "5",
+                                "EffectType": {
+                                        "id": "RaceMatkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Stat",
+                "idx": 3
+        },
+        {
+                "id": "garment1",
+                "itemid": 312442,
+                "label": "Garment Enchant",
+                "equipname": "Spirit of Knight Lv.5",
+                "effectlist": [
+                        {
+                                "EffectNumber": "60",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "60",
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "7",
+                                "EffectType": {
+                                        "id": "RaceAtkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "7",
+                                "EffectType": {
+                                        "id": "RaceMatkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Stat",
+                "idx": 3
+        },
+        {
+                "id": "garment1",
+                "itemid": 312443,
+                "label": "Garment Enchant",
+                "equipname": "Spirit of Knight Lv.6",
+                "effectlist": [
+                        {
+                                "EffectNumber": "70",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "70",
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "9",
+                                "EffectType": {
+                                        "id": "RaceAtkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "9",
+                                "EffectType": {
+                                        "id": "RaceMatkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Stat",
+                "idx": 3
+        },
+        {
+                "id": "garment1",
+                "itemid": 312444,
+                "label": "Garment Enchant",
+                "equipname": "Spirit of Knight Lv.7",
+                "effectlist": [
+                        {
+                                "EffectNumber": "100",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "100",
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "15",
+                                "EffectType": {
+                                        "id": "RaceAtkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "15",
+                                "EffectType": {
+                                        "id": "RaceMatkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Stat",
+                "idx": 3
+        },
+        {
+                "id": "garment1",
+                "itemid": 311389,
+                "label": "Garment Enchant",
+                "equipname": "Expert Magician 1Lv",
+                "effectlist": [
+                        {
+                                "EffectNumber": 2,
+                                "EffectType": {
+                                        "id": "ElementalMagicPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Magic",
+                "idx": 3
+        },
+        {
+                "id": "garment1",
+                "itemid": 311390,
+                "label": "Garment Enchant",
+                "equipname": "Expert Magician 2Lv",
+                "effectlist": [
+                        {
+                                "EffectNumber": 4,
+                                "EffectType": {
+                                        "id": "ElementalMagicPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Magic",
+                "idx": 3
+        },
+        {
+                "id": "garment1",
+                "itemid": 311391,
+                "label": "Garment Enchant",
+                "equipname": "Expert Magician 3Lv",
+                "effectlist": [
+                        {
+                                "EffectNumber": 6,
+                                "EffectType": {
+                                        "id": "ElementalMagicPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Magic",
+                "idx": 3
+        },
+        {
+                "id": "garment1",
+                "itemid": 311392,
+                "label": "Garment Enchant",
+                "equipname": "Expert Magician 4Lv",
+                "effectlist": [
+                        {
+                                "EffectNumber": 8,
+                                "EffectType": {
+                                        "id": "ElementalMagicPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Magic",
+                "idx": 3
+        },
+        {
+                "id": "garment1",
+                "itemid": 311393,
+                "label": "Garment Enchant",
+                "equipname": "Expert Magician 5Lv",
+                "effectlist": [
+                        {
+                                "EffectNumber": 10,
+                                "EffectType": {
+                                        "id": "ElementalMagicPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Magic",
+                "idx": 3
+        },
+        {
+                "id": "shoes1",
+                "itemid": 4826,
+                "label": "Shoes Enchant",
+                "equipname": "Spell 5Lv",
+                "effectlist": [
+                        {
+                                "EffectNumber": 18,
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": 10,
+                                "EffectType": {
+                                        "id": "VariableCastPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Magic",
+                "idx": 3
+        },
+        {
+                "id": "shoes1",
+                "itemid": 4836,
+                "label": "Shoes Enchant",
+                "equipname": "Expert Archer 5Lv",
+                "effectlist": [
+                        {
+                                "EffectNumber": 10,
+                                "EffectType": {
+                                        "id": "RangedDamagePercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": "Range",
+                "idx": 3
+        }
 ]

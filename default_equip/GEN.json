@@ -12545,5 +12545,705 @@
                         }
                 ],
                 "idx": 3
+        },
+        {
+                "id": "helm2",
+                "itemid": 420391,
+                "label": "Lower",
+                "equipname": "Kradat",
+                "refinelevel": 0,
+                "grade": {
+                        "id": 0,
+                        "label": "No Grade"
+                },
+                "effectlist": [
+                        {
+                                "EffectNumber": "7",
+                                "EffectType": {
+                                        "id": "GCDPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "15",
+                                "EffectType": {
+                                        "id": "LevelMatkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [
+                        {
+                                "itemid_every": [
+                                        27426
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Shard of Intelligence Jewel",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 150,
+                                                "EffectType": {
+                                                        "id": "Matk"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [
+                                        27425
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Shard of Vitality Jewel",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 15,
+                                                "EffectType": {
+                                                        "id": "GCDPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "5000",
+                                                "EffectType": {
+                                                        "id": "HP"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        }
+                ],
+                "idx": 3
+        },
+        {
+                "id": "helm2",
+                "itemid": 420390,
+                "label": "Lower",
+                "equipname": "Khon",
+                "refinelevel": 0,
+                "grade": {
+                        "id": 0,
+                        "label": "No Grade"
+                },
+                "effectlist": [
+                        {
+                                "EffectNumber": "7",
+                                "EffectType": {
+                                        "id": "GCDPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "15",
+                                "EffectType": {
+                                        "id": "LevelAtkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [
+                        {
+                                "itemid_every": [
+                                        27421
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Shard of Strength Jewel",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 120,
+                                                "EffectType": {
+                                                        "id": "Atk"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [
+                                        27423
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Shard of Dexterity Jewel",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 120,
+                                                "EffectType": {
+                                                        "id": "Atk"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        }
+
+                ],
+                "idx": 3
+        },
+        {
+                "id": "helm2",
+                "itemid": 420389,
+                "label": "Lower",
+                "equipname": "Kankrai",
+                "refinelevel": 0,
+                "grade": {
+                        "id": 0,
+                        "label": "No Grade"
+                },
+                "effectlist": [
+                        {
+                                "EffectNumber": "15",
+                                "EffectType": {
+                                        "id": "GCDPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "5",
+                                "EffectType": {
+                                        "id": "LevelAtkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "5",
+                                "EffectType": {
+                                        "id": "LevelMatkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "60",
+                                "EffectType": {
+                                        "id": "BypassDEFPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "60",
+                                "EffectType": {
+                                        "id": "BypassMDEFPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [
+                        {
+                                "itemid_every": [
+                                        27422
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Shard of Agility Jewel",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "40",
+                                                "EffectType": {
+                                                        "id": "BypassDEFPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "40",
+                                                "EffectType": {
+                                                        "id": "BypassMDEFPercent"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [
+                                        27424
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Shard of Fatality Jewel",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "15",
+                                                "EffectType": {
+                                                        "id": "MatkPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "15",
+                                                "EffectType": {
+                                                        "id": "CriDamagePercent"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        }
+
+                ],
+                "idx": 3
+        },
+        {
+                "id": "acc1",
+                "itemid": 490552,
+                "label": "Accessory",
+                "equipname": "Nebula Pendant",
+                "refinelevel": 0,
+                "grade": {
+                        "id": 0,
+                        "label": "No Grade"
+                },
+                "effectlist": [
+                        {
+                                "EffectNumber": "10",
+                                "EffectType": {
+                                        "id": "AtkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "10",
+                                "EffectType": {
+                                        "id": "MatkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "8",
+                                "EffectType": {
+                                        "id": "GCDPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [
+                        {
+                                "itemid_every": [ 450169 ],
+                                "itemid_any": [ ],
+                                "equipname": "Nebula Armor of Power",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "35",
+                                                "EffectType": {
+                                                        "id": "CriDamagePercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "ARMORG(2)?12:0",
+                                                "EffectType": {
+                                                        "id": "ElementalAtkPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "ARMORG(4)?15:0",
+                                                "EffectType": {
+                                                        "id": "RaceAtkPercent"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [ 450171 ],
+                                "itemid_any": [ ],
+                                "equipname": "Nebula Suit of Concentration",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "12",
+                                                "EffectType": {
+                                                        "id": "SizeAtkPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "ARMORG(2)?12:0",
+                                                "EffectType": {
+                                                        "id": "ElementalAtkPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "ARMORG(4)?15:0",
+                                                "EffectType": {
+                                                        "id": "RaceAtkPercent"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [ 450172 ],
+                                "itemid_any": [ ],
+                                "equipname": "Nebula Suit of Creative",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "15",
+                                                "EffectType": {
+                                                        "id": "MeleeDamagePercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "15",
+                                                "EffectType": {
+                                                        "id": "RangedDamagePercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "ARMORG(2)?12:0",
+                                                "EffectType": {
+                                                        "id": "ElementalAtkPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "ARMORG(4)?15:0",
+                                                "EffectType": {
+                                                        "id": "RaceAtkPercent"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [ 450173 ],
+                                "itemid_any": [ ],
+                                "equipname": "Nebula Robe of Spell",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "12",
+                                                "EffectType": {
+                                                        "id": "SizeMatkPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "ARMORG(2)?12:0",
+                                                "EffectType": {
+                                                        "id": "ElementalMatkPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "ARMORG(4)?15:0",
+                                                "EffectType": {
+                                                        "id": "RaceMatkPercent"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        }
+                ],
+                "idx": 3
+        },
+        {
+                "id": "robe",
+                "itemid": 480306,
+                "label": "Garment",
+                "equipname": "Dual Shadow World Cloak",
+                "refinelevel": 12,
+                "grade": {
+                        "id": 0,
+                        "label": "No Grade"
+                },
+                "effectlist": [
+                        {
+                                "EffectNumber": "5+DOWN(GARMR/2)",
+                                "EffectType": {
+                                        "id": "AllStatus"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "((GARMR>10)?25:0)+(3*DOWN(GARMR/3))",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "((GARMR>10)?25:0)+(3*DOWN(GARMR/3))",
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "((GARMR>10)?7:0)+((GARMR>8)?3:0)+DOWN(GARMR/3)",
+                                "EffectType": {
+                                        "id": "AtkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "((GARMR>10)?7:0)+((GARMR>8)?3:0)+DOWN(GARMR/3)",
+                                "EffectType": {
+                                        "id": "MatkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "((GARMR>8)?5:0)",
+                                "EffectType": {
+                                        "id": "GCDPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "((GARMR>8)?5:0)",
+                                "EffectType": {
+                                        "id": "VariableCastPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "((GARMR>10)?5:0)",
+                                "EffectType": {
+                                        "id": "AspdPercent"
+                                },
+                                "Enable": true
+                        }                        
+                ],
+                "combolist": [
+                        {
+                                "itemid_every": [ 4594 ],
+                                "itemid_any": [ ],
+                                "equipname": "Petal Card",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "20",
+                                                "EffectType": {
+                                                        "id": "CriDamagePercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "4",
+                                                "EffectType": {
+                                                        "id": "POW"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [ 4593 ],
+                                "itemid_any": [ ],
+                                "equipname": "Menblatt Card",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "15",
+                                                "EffectType": {
+                                                        "id": "RangedDamagePercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "4",
+                                                "EffectType": {
+                                                        "id": "CRT"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [ 4595 ],
+                                "itemid_any": [ ],
+                                "equipname": "Cenere Card",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "15",
+                                                "EffectType": {
+                                                        "id": "AspdPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "4",
+                                                "EffectType": {
+                                                        "id": "CON"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [ 4596 ],
+                                "itemid_any": [ ],
+                                "equipname": "Antique Book Card",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "15",
+                                                "EffectType": {
+                                                        "id": "ElementalMatkPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "4",
+                                                "EffectType": {
+                                                        "id": "SPL"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [ 4588 ],
+                                "itemid_any": [ ],
+                                "equipname": "Wakwak Card",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "15",
+                                                "EffectType": {
+                                                        "id": "ElementalAtkPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "4",
+                                                "EffectType": {
+                                                        "id": "STA"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [ 4589 ],
+                                "itemid_any": [ ],
+                                "equipname": "Jejeling Card",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "20",
+                                                "EffectType": {
+                                                        "id": "HPPercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "4",
+                                                "EffectType": {
+                                                        "id": "WIS"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        }
+                ],
+                "idx": 3
+        },
+{
+    "id": "armor",
+    "itemid": 450396,
+    "label": "Armor",
+    "equipname": "Abyss Dress",
+    "refinelevel": 12,
+    "grade": {
+        "id": 0,
+        "label": "No Grade"
+    },
+    "effectlist": [
+        {
+            "EffectNumber": "125+(10*DOWN(ARMORR/2))",
+            "EffectType": {
+                "id": "Atk"
+            },
+            "Enable": true
+        },
+        {
+            "EffectNumber": "125+(10*DOWN(ARMORR/2))",
+            "EffectType": {
+                "id": "Matk"
+            },
+            "Enable": true
+        },
+        {
+            "EffectNumber": "ARMORR>6?10:0",
+            "EffectType": {
+                "id": "VariableCastPercent"
+            },
+            "Enable": true
+        },
+        {
+            "EffectNumber": "ARMORR>6?10:0",
+            "EffectType": {
+                "id": "AspdPercent"
+            },
+            "Enable": true
+        },
+        {
+            "EffectNumber": "(((ARMORR>8)&&(EEI==7||EEI==8))?5:0)+(((ARMORR>10)&&(EEI==7||EEI==8))?5:0)+(((ARMORR>11)&&(EEI==7||EEI==8))?8:0)",
+            "EffectType": {
+                "id": "ElementalAtkPercent"
+            },
+            "Enable": true
+        },
+        {
+            "EffectNumber": "(((ARMORR>8)&&(ERI==3||ERI==8))?5:0)+(((ARMORR>10)&&(ERI==3||ERI==8))?5:0)+(((ARMORR>11)&&(ERI==3||ERI==8))?8:0)",
+            "EffectType": {
+                "id": "RaceAtkPercent"
+            },
+            "Enable": true
+        },
+        {
+            "EffectNumber": "(((ARMORR>8)&&(EEI==7||EEI==8))?5:0)+(((ARMORR>10)&&(EEI==7||EEI==8))?5:0)+(((ARMORR>11)&&(EEI==7||EEI==8))?8:0)",
+            "EffectType": {
+                "id": "ElementalMatkPercent"
+            },
+            "Enable": true
+        },
+        {
+            "EffectNumber": "(((ARMORR>8)&&(ERI==3||ERI==8))?5:0)+(((ARMORR>10)&&(ERI==3||ERI==8))?5:0)+(((ARMORR>11)&&(ERI==3||ERI==8))?8:0)",
+            "EffectType": {
+                "id": "RaceMatkPercent"
+            },
+            "Enable": true
         }
+    ],
+    "combolist": [
+        {
+            "itemid_every": [
+                420342
+            ],
+            "itemid_any": [],
+            "equipname": "Wireless Security Drone",
+            "effectlist": [
+                {
+                    "EffectNumber": "8",
+                    "EffectType": {
+                        "id": "ElementalAtkPercent"
+                    },
+                    "Enable": true
+                },
+                {
+                    "EffectNumber": "8",
+                    "EffectType": {
+                        "id": "RaceAtkPercent"
+                    },
+                    "Enable": true
+                },
+                {
+                    "EffectNumber": "8",
+                    "EffectType": {
+                        "id": "ElementalMatkPercent"
+                    },
+                    "Enable": true
+                },
+                {
+                    "EffectNumber": "8",
+                    "EffectType": {
+                        "id": "RaceMatkPercent"
+                    },
+                    "Enable": true
+                },
+                {
+                    "EffectNumber": "DOWN(ARMORR/2)",
+                    "EffectType": {
+                        "id": "GCDPercent"
+                    },
+                    "Enable": true
+                }
+            ]
+        }
+    ],
+    "idx": 3
+}
 ]

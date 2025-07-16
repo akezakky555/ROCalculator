@@ -7612,5 +7612,217 @@
 			}
 		],
 		"idx": 3
-	}
+	},
+        {
+                "id": "shoes",
+                "itemid": 470287,
+                "label": "Shoes",
+                "equipname": "Starry Sky Twin Prime",
+                "refinelevel": 12,
+                "grade": {
+                        "id": 0,
+                        "label": "No Grade"
+                },
+                "effectlist": [
+                        {
+                                "EffectNumber": "50",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+			{
+                                "EffectNumber": "3*DOWN(SHOER/3)+100",
+                                "EffectType": {
+                                        "id": "DEX"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "3*DOWN(SHOER/3)+100",
+                                "EffectType": {
+                                        "id": "AGI"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(SKIDS(\"SEVERE_RAINSTORM\")?12:0)*DOWN(SHOER/4)",
+                                "EffectType": {
+                                        "id": "SkillDamagePercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "SHOER > 8 ? (SKIDS(\"SEVERE_RAINSTORM\")?0.5:0) : 0",
+                                "EffectType": {
+                                        "id": "CDTime"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "idx": 3
+        },
+    {
+                "id": "robe",
+                "itemid": 480585,
+                "label": "Garment",
+                "equipname": "Angel Ribbon Wing (Red)-LT",
+                "refinelevel": 12,
+                "grade": {
+                        "id": 4,
+                        "label": "A"
+                },
+                "effectlist": [
+                        {
+                                "EffectNumber": "30*DOWN(GARMR/2)",
+                                "EffectType": {
+                                        "id": "Atk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "GARMG(1)?5:0",
+                                "EffectType": {
+                                        "id": "AtkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "GARMG(2)?5:0",
+                                "EffectType": {
+                                        "id": "POW"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "GARMG(3)?7:0",
+                                "EffectType": {
+                                        "id": "PATK"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "GARMG(3)?7:0",
+                                "EffectType": {
+                                        "id": "SMATK"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "((ERI==2||ERI==4)?10*DOWN(GARMR/4):0)+GARMG(4)?15:0",
+                                "EffectType": {
+                                        "id": "RaceAtkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(GARMR>6?15:0)",
+                                "EffectType": {
+                                        "id": "AspdPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(GARMR>8?12:0)",
+                                "EffectType": {
+                                        "id": "GCDPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(GARMR>10?12:0)",
+                                "EffectType": {
+                                        "id": "MeleeDamagePercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(GARMR>10?12:0)",
+                                "EffectType": {
+                                        "id": "RangedDamagePercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(EEI==0)&&(GARMR>11)?20:0",
+                                "EffectType": {
+                                        "id": "ElementalAtkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [
+                        {
+                                "itemid_every": [
+                                        312440
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Spirit of Knight Lv.3",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 20,
+                                                "EffectType": {
+                                                        "id": "MeleeDamagePercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "20",
+                                                "EffectType": {
+                                                        "id": "RangedDamagePercent"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [
+                                        312442
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Spirit of Knight Lv.5",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 10,
+                                                "EffectType": {
+                                                        "id": "PATK"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "isBoss?15:0",
+                                                "EffectType": {
+                                                        "id": "LevelAtkPercent"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        },
+                        {
+                                "itemid_every": [
+                                        312444
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Spirit of Knight Lv.7",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": 40,
+                                                "EffectType": {
+                                                        "id": "MonsterAtkPercent"
+                                                },
+                                                "Enable": false
+                                        },
+                                        {
+                                                "EffectNumber": "isBoss?15:0",
+                                                "EffectType": {
+                                                        "id": "LevelAtkPercent"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        }
+                ],
+                "idx": 3
+        }
 ]

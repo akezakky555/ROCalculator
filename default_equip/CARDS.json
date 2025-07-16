@@ -72,6 +72,177 @@
     "flags": [],
     "idx": 3
 },
+        {
+                "id": "helmcard",
+                "itemid": 27422,
+                "label": "Headgear Card",
+                "equipname": "Shard of Agility Jewel",
+                "effectlist": [
+                        {
+                                "EffectNumber": "5*FLOOR(HATR/2)",
+                                "EffectType": {
+                                        "id": "AspdPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "FLOOR(HATR/5)",
+                                "EffectType": {
+                                        "id": "ASPD"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": [],
+                "idx": 3
+        },
+        {
+                "id": "helmcard",
+                "itemid": 27423,
+                "label": "Headgear Card",
+                "equipname": "Shard of Dexterity Jewel",
+                "effectlist": [
+                        {
+                                "EffectNumber": "3*FLOOR(HATR/2)",
+                                "EffectType": {
+                                        "id": "RangedDamagePercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "3*FLOOR(HATR/5)",
+                                "EffectType": {
+                                        "id": "AtkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": [],
+                "idx": 3
+        },
+        {
+                "id": "helmcard",
+                "itemid": 27424,
+                "label": "Headgear Card",
+                "equipname": "Shard of Fatality Jewel",
+                "effectlist": [
+                        {
+                                "EffectNumber": "6*FLOOR(HATR/2)",
+                                "EffectType": {
+                                        "id": "CriDamagePercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "3*FLOOR(HATR/2)",
+                                "EffectType": {
+                                        "id": "Cri"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "3*FLOOR(HATR/5)",
+                                "EffectType": {
+                                        "id": "AtkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": [],
+                "idx": 3
+        },
+        {
+                "id": "helmcard",
+                "itemid": 27421,
+                "label": "Headgear Card",
+                "equipname": "Shard of Strength Jewel",
+                "effectlist": [
+                        {
+                                "EffectNumber": "3*FLOOR(HATR/2)",
+                                "EffectType": {
+                                        "id": "MeleeDamagePercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "3*FLOOR(HATR/5)",
+                                "EffectType": {
+                                        "id": "AtkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": [],
+                "idx": 3
+        },
+        {
+                "id": "helmcard",
+                "itemid": 27425,
+                "label": "Headgear Card",
+                "equipname": "Shard of Vitality Jewel",
+                "effectlist": [
+                        {
+                                "EffectNumber": "5*FLOOR(HATR/2)",
+                                "EffectType": {
+                                        "id": "VariableCastPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "7*FLOOR(HATR/2)",
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "3*FLOOR(HATR/5)",
+                                "EffectType": {
+                                        "id": "MatkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": [],
+                "idx": 3
+        },
+        {
+                "id": "helmcard",
+                "itemid": 27426,
+                "label": "Headgear Card",
+                "equipname": "Shard of Intelligence Jewel",
+                "effectlist": [
+                        {
+                                "EffectNumber": "3*FLOOR(HATR/2)",
+                                "EffectType": {
+                                        "id": "ElementalMagicPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "7*FLOOR(HATR/2)",
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "3*FLOOR(HATR/5)",
+                                "EffectType": {
+                                        "id": "MatkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "flags": [],
+                "idx": 3
+        },
 	{
 		"id": "helmcard",
 		"itemid": 4132,

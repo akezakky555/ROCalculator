@@ -3941,5 +3941,254 @@
 			}
 		],
 		"idx": 3
-	}
+	},
+        {
+                "id": "acc1",
+                "itemid": 490753,
+                "label": "Accessory",
+                "equipname": "Fallen Seraphim Ring (Imperial Guard)",
+                "refinelevel": 0,
+                "grade": {
+                        "id": 0,
+                        "label": "No Grade"
+                },
+                "effectlist": [
+                        {
+                                "EffectNumber": 100,
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": 15,
+                                "EffectType": {
+                                        "id": "VariableCastPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": 10,
+                                "EffectType": {
+                                        "id": "GCDPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": 15,
+                                "EffectType": {
+                                        "id": "SizeMatkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "((SKIDS(\"CROSS_RAIN\")?25:0)+(SKIDS(\"RAYOFGENESIS\")?35:0))",
+                                "EffectType": {
+                                        "id": "SkillDamagePercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [
+                        {
+                                "itemid_every": [
+                                        500019
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Poenitentia Gladius",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "(WEAR>9?10:0)",
+                                                "EffectType": {
+                                                        "id": "SMATK"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "((SKIDS(\"CROSS_RAIN\")&&WEAR>9?35:0)+(SKIDS(\"RAYOFGENESIS\")&&WEAR>9?70:0))",
+                                                "EffectType": {
+                                                        "id": "SkillDamagePercent"
+                                                },
+                                                "Enable": true
+                                        },
+                                        {
+                                                "EffectNumber": "(WEAR>9?15:0)",
+                                                "EffectType": {
+                                                        "id": "RaceMatkPercent"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        }
+                ],
+                "idx": 3
+        },
+        {
+                "id": "acc2",
+                "itemid": 490754,
+                "label": "Accessory",
+                "equipname": "Poenitentia Ring (Imperial Guard)",
+                "refinelevel": 0,
+                "grade": {
+                        "id": 0,
+                        "label": "No Grade"
+                },
+                "effectlist": [
+                        {
+                                "EffectNumber": 100,
+                                "EffectType": {
+                                        "id": "Matk"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": 15,
+                                "EffectType": {
+                                        "id": "VariableCastPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": 10,
+                                "EffectType": {
+                                        "id": "GCDPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": 15,
+                                "EffectType": {
+                                        "id": "SizeMatkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "((SKIDS(\"CROSS_RAIN\")?25:0)+(SKIDS(\"RAYOFGENESIS\")?35:0))",
+                                "EffectType": {
+                                        "id": "SkillDamagePercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [
+                        {
+                                "itemid_every": [
+                                        500019
+                                ],
+                                "itemid_any": [],
+                                "equipname": "Poenitentia Gladius",
+                                "effectlist": [
+                                        {
+                                                "EffectNumber": "(SKIDS(\"CROSS_RAIN\")&&WEAR>9?2:0)",
+                                                "EffectType": {
+                                                        "id": "CDTime"
+                                                },
+                                                "Enable": true
+                                        }
+                                ]
+                        }
+                ],
+                "idx": 3
+        },
+        {
+                "id": "weaponl",
+                "itemid": 460078,
+                "label": "OffHand",
+                "equipname": "Themis Balance-LT",
+                "refinelevel": 12,
+                "grade": {
+                        "id": 4,
+                        "label": "A"
+                },
+                "effectlist": [
+                        {
+                                "EffectNumber": "15+SWEAG(2)?15:0",
+                                "EffectType": {
+                                        "id": "VariableCastPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "SWEAR>6?2:0",
+                                "EffectType": {
+                                        "id": "ASPD"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(SWEAR>6?5:0)+(SWEAG(1)?5:0)",
+                                "EffectType": {
+                                        "id": "HPPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(SKIDS(\"RAYOFGENESIS\")&&SWEAR>8?1:0)+(SKIDS(\"CROSS_RAIN\")&&SWEAG(4)?0.3:0)",
+                                "EffectType": {
+                                        "id": "CDTime"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "SWEAR>10?20:0",
+                                "EffectType": {
+                                        "id": "MatkPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "SWEAR>10?10:0",
+                                "EffectType": {
+                                        "id": "GCDPercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(SKIDS(\"CROSS_RAIN\")&&SWEAR>11?1:0)+(SKIDS(\"CROSS_RAIN\")&&SWEAG(1)?10:0)+(SKIDS(\"CROSS_RAIN\")&&SWEAG(3)?10:0)",
+                                "EffectType": {
+                                        "id": "SkillDamagePercent"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(SWEAG(2)?4:0)+(SWEAG(3)?6:0)",
+                                "EffectType": {
+                                        "id": "SMATK"
+                                },
+                                "Enable": true
+                        },
+                        {
+                                "EffectNumber": "(SWEAG(4)?20:0)",
+                                "EffectType": {
+                                        "id": "SizeMatkPercent"
+                                },
+                                "Enable": true
+                        }
+                ],
+                "combolist": [],
+                "idx": 0,
+                "weapon": {
+                        "type": {
+                                "id": "Shield",
+                                "label": "Shield"
+                        },
+                        "level": {
+                                "id": 1,
+                                "label": "Lv. 1 Weapon",
+                                "upgradeatk": 2,
+                                "saferefine": 7,
+                                "overatk": 3
+                        },
+                        "grade": {
+                                "id": 4,
+                                "label": "A"
+                        },
+                        "ATK": 0,
+                        "MATK": 0,
+                        "refinelevel": 14,
+                        "ShieldWeight": 80,
+                        "refinematk": 0,
+                        "refineatk": 0
+                }
+        }
 ]
